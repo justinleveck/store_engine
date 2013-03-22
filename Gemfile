@@ -1,17 +1,21 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'sqlite3'
+gem 'pg'
 gem 'jquery-rails'
+gem 'rails-asset-jqueryui'
+gem 'twitter-bootstrap-rails'
+gem 'money'
 gem 'rake'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platform => :ruby
-
+  gem 'bootstrap-sass'
+  gem 'compass'
+  gem 'compass-rails'  
   gem 'uglifier', '>= 1.0.3'
 end
 
