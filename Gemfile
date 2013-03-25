@@ -7,6 +7,7 @@ gem 'rails-asset-jqueryui'
 gem 'twitter-bootstrap-rails'
 gem 'money'
 gem 'rake'
+gem 'sorcery'
 
 group :assets do
   gem 'sass-rails', '~> 3.2.0'
