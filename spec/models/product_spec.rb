@@ -1,12 +1,6 @@
 require 'spec_helper'
 include Sorcery::TestHelpers::Rails
 
-# A product must have a title, description, and price.
-# The title and description cannot be empty strings.
-# The title must be unique for all products in the system
-# The price must be a valid decimal numeric value and greater than zero
-# The photo is optional. If present it must be a valid URL format.
-
 describe Product do
   it "is valid with a title, description, and price" do
     product = Product.new(
