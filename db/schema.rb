@@ -21,4 +21,6 @@ ActiveRecord::Schema.define(:version => 20130325003800) do
     t.datetime "updated_at",                                  :null => false
   end
 
+  add_index "products", ["title"], :name => "index_products_on_title", :unique => true
+
 end
