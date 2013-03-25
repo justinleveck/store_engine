@@ -17,6 +17,7 @@ group :assets do
   gem 'compass'
   gem 'compass-rails'  
   gem 'uglifier', '>= 1.0.3'
+  gem 'formtastic'
 end
 
 group :development, :test do
